@@ -10,6 +10,9 @@ public class Player : MonoBehaviour
     public float maxHeight;
     public float minHeight;
 
+    public int health = 3;
+
+
     private void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed*Time.deltaTime);
