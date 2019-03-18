@@ -47,6 +47,6 @@ MonoBehaviour:
   - {fileID: 4650960847386313001, guid: c8aeafb12c2672a408d90f6f92f4b16b, type: 3}
   - {fileID: 4335467095740594287, guid: 139ff65b1e764ae48b8b6e591b9ce0bf, type: 3}
   - {fileID: 4358000298203669890, guid: 0c54bbdcc15b51845b10a1912196e70c, type: 3}
-  startTimeBtwSpawn: 1.25
+  startTimeBtwSpawn: 2
   decreaseTime: 0.05
   minTime: 0.65

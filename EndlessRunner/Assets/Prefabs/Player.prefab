@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -200
   m_Sprite: {fileID: 21300000, guid: 29dd3c99ee23b3542b4c6645f63da5bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -99,6 +99,8 @@ MonoBehaviour:
   maxHeight: 5
   minHeight: -5
   health: 3
+  effect: {fileID: 0}
+  healthDisplay: {fileID: 0}
 --- !u!61 &4574527159171895224
 BoxCollider2D:
   m_ObjectHideFlags: 0

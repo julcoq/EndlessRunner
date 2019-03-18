@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5590149985252259766}
   - component: {fileID: 7335114103696051479}
   - component: {fileID: 7288140927629596314}
+  - component: {fileID: 3883928787717483746}
   m_Layer: 0
   m_Name: ObstacleEffect
   m_TagString: Untagged
@@ -42,7 +43,7 @@ ParticleSystem:
   serializedVersion: 6
   lengthInSec: 0.1
   simulationSpeed: 1
-  stopAction: 0
+  stopAction: 2
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
@@ -4756,3 +4757,16 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &3883928787717483746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218414338826195951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1fac3f0ff9d6d9438775c4bb0b70e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 10
